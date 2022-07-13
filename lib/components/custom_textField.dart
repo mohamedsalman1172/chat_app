@@ -14,7 +14,7 @@ class CustomTextFormField extends StatelessWidget {
       obscureText: obscureText!,
       validator: (value) {
         if (value!.isEmpty) {
-          return 'Empty is not allowed';
+          return 'Empty isn\'t allowed';
         }
       },
       onChanged: onChanged,
